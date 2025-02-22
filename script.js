@@ -1,6 +1,6 @@
         const codes = document.querySelectorAll(".code");
 
-		// codes[0].focus()
+		codes[0].focus()
 
         codes.forEach((input, index) => {
             input.addEventListener("input", (e) => {
